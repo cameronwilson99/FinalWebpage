@@ -1,0 +1,100 @@
+/*Cameron Wilson, 12/16/21*/
+
+body {
+    background-image: url("../images/tabbg.jfif");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+}
+
+#nav {
+    background-color: #5dcdf7;
+    position:fixed;
+    top: 200px;
+    z-index: 1;
+    width: 100%;
+    display:inline;
+    text-align:center;
+}
+
+li {
+    display:inline;
+    text-align:center;
+    padding-right:100px;
+    padding-left:75px;
+    font-size: 20px;
+    font-weight:bold;
+    color:white;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    opacity: 1;
+    text-shadow: 1px 1px black;
+}
+
+a:hover {
+    color: #04069f
+}
+
+h1 {
+    font-size: 50px;
+    font-family:'Perpetua Titling MT';
+    color: #5dcdf7;
+}
+
+h2 {
+    font-size: 14px;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+}
+
+.anchor {
+    position:relative;
+    left:38.5%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+
+.caption {
+    background-color: #5dcdf7;
+    border-width: 7px;
+    border-color:black;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.9
+}
+
+.box1 {
+    position:relative;
+    width: 47%;
+    float:left;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+}
+.box2 {
+    position:relative;
+    width: 46%;
+    float:right;
+    border-style:solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+footer {
+    position: relative;
+    text-align:center;
+    font-size:small;
+    padding-top: 100px;
+}
